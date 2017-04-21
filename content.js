@@ -6,7 +6,7 @@ InboxSDK.load('1', 'EmailScheduler').then(function(sdk){
 		// a compose view has come into existence !
 		composeView.addButton({
 			title: "Send later(Ctrl+Alt+L)",				
-			iconUrl : chrome.extension.getURL('/icons/calendar-timeout-128.png'),			
+			iconUrl : chrome.extension.getURL('/icons/calendar-timeout.png'),			
 			onClick: function(event) {
 				event.composeView.insertTextIntoBodyAtCursor('Hello');
 			},
